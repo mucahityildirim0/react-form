@@ -30,3 +30,10 @@ input:invalid[focused="true"] {
 input:invalid[focused="true"] ~ span {
   display: block;
 }
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
